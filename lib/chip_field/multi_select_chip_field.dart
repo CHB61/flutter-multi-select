@@ -151,7 +151,7 @@ class MultiSelectChipField<V> extends FormField<List<V>> {
                 showHeader: showHeader,
                 chipWidth: chipWidth,
               );
-              return _MultiSelectChipFieldView<V?>.withState(view as _MultiSelectChipFieldView<V?>, state);
+              return _MultiSelectChipFieldView<V>.withState(view as _MultiSelectChipFieldView<V>, state);
             });
 }
 
